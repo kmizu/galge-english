@@ -1,0 +1,81 @@
+site_name: ギャルゲーで学ぶ英語
+site_description: 日本の美少女ゲームファンのための実践的英語教科書
+site_author: Galge English Project
+site_url: https://your-github-username.github.io/galge-english/
+
+theme:
+  name: material
+  language: ja
+  palette:
+    - scheme: default
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/brightness-7
+        name: ダークモードに切り替え
+    - scheme: slate
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/brightness-4
+        name: ライトモードに切り替え
+  font:
+    text: Noto Sans JP
+    code: Source Code Pro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+
+plugins:
+  - search:
+      lang: ja
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username/galge-english
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/your-handle
+
+copyright: Copyright &copy; 2024 Galge English Project
+
+nav:
+  - ホーム: index.md
+  - 第1章 - 基礎編:
+    - 1.1 ギャルゲー英語の世界へようこそ: chapter1/intro.md
+    - 1.2 よく使う単語・フレーズ: chapter1/common-phrases.md
+    - 1.3 ジャンル別の特徴: chapter1/genres.md
+  - 第2章 - 実践編:
+    - 2.1 レビューを書く: chapter2/writing-reviews.md
+    - 2.2 フォーラムでの議論: chapter2/forum-discussion.md
+    - 2.3 推しキャラについて語る: chapter2/favorite-characters.md
+  - 第3章 - 上級編:
+    - 3.1 翻訳の良し悪しを議論する: chapter3/translation-quality.md
+    - 3.2 海外ファンとの交流: chapter3/international-community.md
+    - 3.3 実況・配信で使える英語: chapter3/streaming.md
+  - 付録:
+    - 用語集: appendix/glossary.md
+    - よくある間違い: appendix/common-mistakes.md
+    - おすすめリソース: appendix/resources.md

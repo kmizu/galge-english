@@ -1,0 +1,71 @@
+/* カスタムスタイル for 基礎から学び直す高校英語 */
+
+/* 発音記号のスタイル */
+.pronunciation {
+    font-family: "Lucida Sans Unicode", "Arial Unicode MS", Arial, sans-serif;
+    color: #1976d2;
+    font-size: 1.1em;
+}
+
+/* 例文のスタイル */
+.example-sentence {
+    background-color: #f5f5f5;
+    border-left: 4px solid #2196f3;
+    padding: 10px 15px;
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* 日本語訳のスタイル */
+.japanese-translation {
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* 重要ポイントのスタイル */
+.important-point {
+    background-color: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+/* 練習問題のスタイル */
+.exercise {
+    background-color: #e3f2fd;
+    border: 1px solid #90caf9;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+/* 表のスタイル */
+.md-typeset table {
+    margin: 20px 0;
+}
+
+.md-typeset table th {
+    background-color: #2196f3;
+    color: white;
+}
+
+/* コラムのスタイル */
+.column-box {
+    background-color: #f0f7ff;
+    border: 2px dashed #64b5f6;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* 文法ルールボックス */
+.grammar-rule {
+    background-color: #e8f5e9;
+    border: 2px solid #4caf50;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 15px 0;
+    font-weight: bold;
+}
